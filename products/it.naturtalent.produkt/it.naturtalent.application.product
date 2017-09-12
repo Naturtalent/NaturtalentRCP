@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="it.naturtalent.application" uid="RCP product" id="it.naturtalent.application.product1" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/it.naturtalent.application/icons/nt48x48.gif"/>
+      <text>
+         Naturtalent
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-clearPersistedState
+      </programArgs>
+      <programArgsLin>-data /home/dieter/NaturtalentMigration/workspaces/telekom/
+      </programArgsLin>
+      <vmArgsLin>-Djava.library.path=/usr/lib/libreoffice/program
+      </vmArgsLin>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/it.naturtalent.application/icons/nt16x16.gif" i32="/it.naturtalent.application/icons/nt32x32.gif" i48="/it.naturtalent.application/icons/nt48x48.gif" i64="/it.naturtalent.application/icons/nt64x64.gif" i128="/it.naturtalent.application/icons/nt128x128.gif"/>
+
+   <splash
+      location="it.naturtalent.application" />
+   <launcher name="NaturTalent">
+      <linux icon="nt48x48.xpm"/>
+      <win useIco="true">
+         <ico path="/it.naturtalent.product/nt.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.equinox.executable"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.nebula.cwt.feature"/>
+      <feature id="org.eclipse.nebula.widgets.cdatetime.feature"/>
+      <feature id="it.naturtalent.feature.emf"/>
+      <feature id="it.naturtalent.feature.rcp"/>
+      <feature id="org.eclipse.equinox.core.sdk"/>
+      <feature id="it.naturtalent.feature.basic"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>
