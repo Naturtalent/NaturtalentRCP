@@ -1,0 +1,26 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>it.naturtalent.produkt</groupId>
+	<artifactId>it.naturtalent.produkt.products</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>it.naturtalent.produkt</groupId>
+		<artifactId>it.naturtalent.produkt.root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>	
+	</parent>
+
+	<modules>
+		<module>it.naturtalent.produkt</module>
+	<!-- 
+		<module>it.naturtalent.basic.target</module>
+		<module>it.naturtalent.product</module>
+		<module>it.naturtalent.basic.update</module>
+		 -->
+	</modules>
+
+</project>
+
+
