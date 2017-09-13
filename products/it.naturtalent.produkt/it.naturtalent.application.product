@@ -57,9 +57,9 @@
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.nebula.cwt.feature"/>
       <feature id="org.eclipse.nebula.widgets.cdatetime.feature"/>
+      <feature id="org.eclipse.equinox.core.sdk"/>
       <feature id="it.naturtalent.feature.emf"/>
       <feature id="it.naturtalent.feature.rcp"/>
-      <feature id="org.eclipse.equinox.core.sdk"/>
       <feature id="it.naturtalent.feature.basic"/>
    </features>
 

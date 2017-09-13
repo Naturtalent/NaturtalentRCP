@@ -20,7 +20,8 @@
    			<layout>p2</layout>
  		 </repository>
  	</repositories>
- -->
+ 	-->
+ 
 	
 	<build>
 		<plugins>
@@ -36,15 +37,17 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho.version}</version>
 				<configuration>
-					<target>
+				
 					<!-- This block activates the usage of the target definition file -->
+			
+					<target>				
 						<artifact>
 							<groupId>it.naturtalent.produkt</groupId>
 							<artifactId>it.naturtalent.produkt.target</artifactId>
 							<version>1.0.0-SNAPSHOT</version>
 						</artifact>
 					</target>
-
+ 
 
 					<environments>
 						<environment>
