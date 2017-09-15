@@ -60,7 +60,9 @@
       <feature id="org.eclipse.equinox.core.sdk"/>
       <feature id="it.naturtalent.feature.emf"/>
       <feature id="it.naturtalent.feature.rcp"/>
-      <feature id="it.naturtalent.feature.basis" version="1.0.0.qualifier"/>
+      <feature id="it.naturtalent.feature.basis"/>
+      <feature id="it.naturtalent.features.office"/>
+      <feature id="it.naturtalent.feature.design"/>
    </features>
 
    <configurations>

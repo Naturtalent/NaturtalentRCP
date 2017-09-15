@@ -12,14 +12,8 @@
 		<version>1.0.0-SNAPSHOT</version>	
 	</parent>
 
-	<modules>
-		 
+	<modules>		 
 		<module>it.naturtalent.produkt.target</module>
-
-		<!-- 
-		<module>it.naturtalent.product</module>
-		<module>it.naturtalent.basic.update</module>
-		 -->
 	</modules>
 
 </project>
