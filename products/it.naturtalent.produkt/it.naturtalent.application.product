@@ -60,7 +60,8 @@
       <feature id="it.naturtalent.feature.basis"/>
       <feature id="it.naturtalent.features.office"/>
       <feature id="it.naturtalent.feature.emf"/>
-      <feature id="it.naturtalent.feature.design" version="1.0.0.qualifier"/>
+      <feature id="it.naturtalent.feature.design"/>
+      <feature id="it.naturtalent.login.feature"/>
    </features>
 
    <configurations>
