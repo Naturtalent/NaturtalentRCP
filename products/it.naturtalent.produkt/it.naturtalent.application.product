@@ -63,6 +63,7 @@
       <feature id="it.naturtalent.login.feature"/>
       <feature id="it.naturtalent.feature.archiv"/>
       <feature id="it.naturtalent.feature.libreoffice"/>
+      <feature id="it.naturtalent.features.office"/>
    </features>
 
    <configurations>
