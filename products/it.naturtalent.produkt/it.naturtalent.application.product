@@ -64,6 +64,7 @@
       <feature id="it.naturtalent.feature.archiv"/>
       <feature id="it.naturtalent.feature.libreoffice"/>
       <feature id="it.naturtalent.features.office"/>
+      <feature id="it.naturtalent.features.telekom"/>
    </features>
 
    <configurations>

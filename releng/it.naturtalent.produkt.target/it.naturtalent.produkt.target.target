@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="TargetRuntimeDefinition" sequenceNumber="222">
+<?pde version="3.8"?><target includeMode="feature" name="TargetRuntimeDefinition" sequenceNumber="223">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
@@ -39,8 +39,12 @@
 <repository location="file:/media/NAS/UpdateSites/Design/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="it.naturtalent.features.office.feature.group" version="1.0.0.201805190901"/>
+<unit id="it.naturtalent.features.office.feature.group" version="0.0.0"/>
 <repository location="file:/media/NAS/UpdateSites/Office/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="it.naturtalent.features.telekom.feature.group" version="0.0.0"/>
+<repository location="file:/media/NAS/UpdateSites/Telekom/repository/"/>
 </location>
 </locations>
 </target>
