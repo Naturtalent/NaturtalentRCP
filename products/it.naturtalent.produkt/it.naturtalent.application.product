@@ -16,6 +16,8 @@
    <launcherArgs>
       <programArgs>-clearPersistedState
       </programArgs>
+      <vmArgs>-Dds.delayed.keepInstances=true
+      </vmArgs>
       <vmArgsLin>-Djava.library.path=/usr/lib/libreoffice/program
       </vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
@@ -41,33 +43,54 @@
    </plugins>
 
    <features>
+      <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
+      <feature id="org.eclipse.equinox.executable"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.equinox.core.sdk"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
-      <feature id="org.eclipse.equinox.executable"/>
+      <feature id="org.eclipse.emf.common.ui"/>
+      <feature id="org.eclipse.emf.edit"/>
+      <feature id="org.eclipse.emf.edit.ui"/>
+      <feature id="org.eclipse.emf.databinding"/>
+      <feature id="org.eclipse.emf.databinding.edit"/>
+      <feature id="org.eclipse.emf.ecp.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.categorization.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.treemasterdetail.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.validation.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.horizontal.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.group.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.vertical.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.table.feature"/>
+      <feature id="org.eclipse.emf.ecp.view.template.feature"/>
+      <feature id="org.eclipse.emf.ecp.viewmodel.feature"/>
+      <feature id="org.eclipse.emfforms.core.bazaar.feature"/>
+      <feature id="org.eclipse.emfforms.view.annotation.feature"/>
+      <feature id="org.eclipse.emf.ecp.emfstore.feature"/>
       <feature id="org.eclipse.ecf.core.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.emf.ecore.edit"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
-      <feature id="org.eclipse.equinox.p2.core.feature"/>
-      <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.nebula.cwt.feature"/>
       <feature id="org.eclipse.nebula.widgets.cdatetime.feature"/>
-      <feature id="org.eclipse.equinox.core.sdk"/>
       <feature id="it.naturtalent.feature.rcp"/>
-      <feature id="it.naturtalent.feature.basis"/>
       <feature id="it.naturtalent.feature.emf"/>
-      <feature id="it.naturtalent.feature.design"/>
+      <feature id="it.naturtalent.feature.basis"/>
       <feature id="it.naturtalent.login.feature"/>
       <feature id="it.naturtalent.feature.archiv"/>
       <feature id="it.naturtalent.feature.libreoffice"/>
       <feature id="it.naturtalent.features.office"/>
       <feature id="it.naturtalent.features.telekom"/>
+      <feature id="it.naturtalent.feature.design"/>
    </features>
 
    <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="false" startLevel="1" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
