@@ -25,31 +25,31 @@
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.feature.basis.feature.group" version="1.0.0.201808142035"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Basis/repository/"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Basis/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.feature.archiv.feature.group" version="1.0.0.201808142031"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Archiv/repository/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.feature.design.feature.group" version="1.0.0.201808142032"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Design/repository/"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Archiv/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.feature.libreoffice.feature.group" version="1.0.0.201808142033"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Libreoffice/repository/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.login.feature.feature.group" version="1.0.0.201808142034"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Login/repository/"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Libreoffice/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.features.office.feature.group" version="1.0.0.201808142037"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Office/repository/"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Office/repository/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="it.naturtalent.login.feature.feature.group" version="1.0.0.201808142034"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Login/repository/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="it.naturtalent.feature.design.feature.group" version="1.0.0.201808142032"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Design/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.features.telekom.feature.group" version="1.0.0.201808142039"/>
-		<repository location="file:/media/dieter/Maxone/UpdateSites/Telekom/repository/"/>
+		<repository location="ftp://192.168.178.32/public/UpdateSites/Telekom/repository/"/>
 	</location>
 </locations>
 </target>
