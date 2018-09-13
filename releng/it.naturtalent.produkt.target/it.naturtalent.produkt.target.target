@@ -24,28 +24,32 @@
 		<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="3.11.0.v20180515-1348"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.features.telekom.feature.group" version="1.0.0.201808142039"/>
+		<unit id="it.naturtalent.features.telekom.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Telekom/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.feature.basis.feature.group" version="1.0.0.201808142035"/>
+		<unit id="it.naturtalent.feature.basis.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Basis/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.feature.archiv.feature.group" version="1.0.0.201808142031"/>
+		<unit id="it.naturtalent.feature.archiv.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Archiv/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.login.feature.feature.group" version="1.0.0.201808142034"/>
+		<unit id="it.naturtalent.login.feature.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Login/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.feature.libreoffice.feature.group" version="1.0.0.201808142033"/>
+		<unit id="it.naturtalent.feature.libreoffice.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Libreoffice/repository/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="it.naturtalent.features.office.feature.group" version="1.0.0.201808142037"/>
+		<unit id="it.naturtalent.features.office.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Office/repository/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="it.naturtalent.feature.design.feature.group" version="0.0.0"/>
+		<repository location="file:/media/dieter/MAXONE/UpdateSites/Design/repository/"/>
 	</location>
 </locations>
 </target>
