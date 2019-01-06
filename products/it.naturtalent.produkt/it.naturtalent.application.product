@@ -87,6 +87,7 @@
       <feature id="it.naturtalent.features.office"/>
       <feature id="it.naturtalent.features.telekom"/>
       <feature id="it.naturtalent.feature.design"/>
+      <feature id="it.naturtalent.features.privat"/>
    </features>
 
    <configurations>

@@ -14,8 +14,8 @@
 		<repository location="http://download.eclipse.org/eclipse/updates/4.8"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="org.eclipse.nebula.examples.release.feature.feature.group" version="1.1.0.201804281520"/>
-		<unit id="org.eclipse.nebula.feature.feature.group" version="1.4.0.201804281520"/>
+		<unit id="org.eclipse.nebula.examples.release.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.nebula.feature.feature.group" version="0.0.0"/>
 		<repository location="http://download.eclipse.org/nebula/releases/latest"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -50,6 +50,25 @@
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="it.naturtalent.feature.design.feature.group" version="0.0.0"/>
 		<repository location="file:/media/dieter/MAXONE/UpdateSites/Design/repository/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="it.naturtalent.features.privat.feature.group" version="0.0.0"/>
+		<repository location="file:/media/dieter/MAXONE/UpdateSites/Privat/repository/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="org.eclipse.egit.gitflow.feature.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.egit.ui.smartimport" version="5.2.0.201812061821-r"/>
+		<repository location="http://download.eclipse.org/egit/updates"/>
+		<unit id="org.eclipse.egit.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.egit.mylyn.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.egit.source.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.source.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.pgm.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.pgm.source.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.lfs.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.ssh.apache.feature.group" version="5.2.0.201812061821-r"/>
+		<unit id="org.eclipse.jgit.ssh.apache.source.feature.group" version="5.2.0.201812061821-r"/>
 	</location>
 </locations>
 </target>
