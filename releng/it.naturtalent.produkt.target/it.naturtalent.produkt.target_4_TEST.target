@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target includeMode="feature" name="TargetRuntimeDefinition" sequenceNumber="223">
+<locations>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="org.eclipse.equinox.sdk.feature.group" version="3.14.0.v20180518-2029"/>
+		<unit id="org.eclipse.rcp.feature.group" version="4.8.0.v20180611-0656"/>
+		<unit id="org.eclipse.rcp.source.feature.group" version="4.8.0.v20180611-0656"/>
+		<unit id="org.eclipse.sdk.ide" version="4.8.0.I20180611-0500"/>
+		<repository location="http://download.eclipse.org/eclipse/updates/4.8"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="org.eclipse.emf.sdk.feature.group" version="2.14.0.v20180529-1157"/>
+		<repository location="http://download.eclipse.org/releases/photon"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="org.eclipse.nebula.examples.release.feature.feature.group" version="1.1.0.201812241324"/>
+		<unit id="org.eclipse.nebula.feature.feature.group" version="2.1.0.201812241324"/>
+		<repository location="http://download.eclipse.org/nebula/releases/latest"/>
+	</location>
+</locations>
+</target>
