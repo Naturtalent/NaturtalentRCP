@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="it.naturtalent.application" uid="RCP product" id="it.naturtalent.application.product1" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="false">
+<product name="it.naturtalent.application" uid="RCP product" id="it.naturtalent.application.product1" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/it.naturtalent.application/icons/nt48x48.gif"/>
@@ -88,11 +88,10 @@
       <feature id="org.eclipse.net4j.util" installMode="root"/>
       <feature id="org.eclipse.net4j.util.ui" installMode="root"/>
       <feature id="org.eclipse.jgit" installMode="root"/>
-      <feature id="it.naturtalent.feature.basis"/>
       <feature id="it.naturtalent.feature.rcp" installMode="root"/>
+      <feature id="it.naturtalent.feature.basis"/>
       <feature id="it.naturtalent.feature.archiv" installMode="root"/>
       <feature id="it.naturtalent.feature.design" installMode="root"/>
-      <feature id="it.naturtalent.feature.emf" installMode="root"/>
       <feature id="it.naturtalent.feature.libreoffice" installMode="root"/>
       <feature id="it.naturtalent.features.office" installMode="root"/>
       <feature id="it.naturtalent.features.telekom" installMode="root"/>

@@ -14,11 +14,6 @@
 
 	<modules>
 		<module>it.naturtalent.produkt</module>
-	<!-- 
-		<module>it.naturtalent.basic.target</module>
-		<module>it.naturtalent.product</module>
-		<module>it.naturtalent.basic.update</module>
-		 -->
 	</modules>
 
 </project>

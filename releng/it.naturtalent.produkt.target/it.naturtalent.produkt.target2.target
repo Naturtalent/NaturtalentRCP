@@ -61,9 +61,16 @@
 			<unit id="org.eclipse.emfforms.rulerepository.feature.source.feature.group" version="1.20.0.20190311-1236"/>
 			<unit id="org.eclipse.emfforms.swt.controlgrid.feature.source.feature.group" version="1.20.0.20190311-1236"/>
 			<unit id="org.eclipse.emfforms.view.annotation.feature.source.feature.group" version="1.20.0.20190311-1236"/>
-			<unit id="org.eclipse.emf.ecp.cdo.feature.feature.group" version="1.20.0.20190311-1236"/>
 			<unit id="org.eclipse.emf.ecp.cdo.feature.source.feature.group" version="1.20.0.20190311-1236"/>
 			<unit id="org.eclipse.emf.ecp.workspace.feature.source.feature.group" version="1.20.0.20190311-1236"/>
+			<unit id="org.eclipse.emf.ecp.view.template.feature.source.feature.group" version="1.20.0.20190311-1236"/>
+			<unit id="org.eclipse.emfforms.core.bazaar.feature.source.feature.group" version="1.20.0.20190311-1236"/>
+			<unit id="org.eclipse.emf.ecp.view.validation.feature.source.feature.group" version="1.20.0.20190311-1236"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.egit.feature.group" version="0.8.4"/>
+			<unit id="org.eclipse.jgit.feature.group" version="0.8.4"/>
+			<repository location="https://archive.eclipse.org/egit/updates-0.8/"/>
 		</location>
 	</locations>
 </target>

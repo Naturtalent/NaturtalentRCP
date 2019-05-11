@@ -13,7 +13,7 @@
 	</parent>
 
 	<modules>
-		<module>it.naturtalent.feature.emf</module>
+		<!--  <module>it.naturtalent.feature.emf</module>   -->
 		<module>it.naturtalent.feature.rcp</module>		
 	</modules>
 

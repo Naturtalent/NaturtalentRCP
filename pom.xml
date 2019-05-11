@@ -15,9 +15,9 @@
 	
 
 	<modules>
-		<module>products</module>
-		<module>releng</module>		
-		<module>features</module>	
+		<module>releng</module>
+		<module>features</module>			
+		<module>products</module>		
 	</modules>
 
 </project>
