@@ -24,7 +24,7 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/it.naturtalent.application/icons/nt16x16.gif" i32="/it.naturtalent.application/icons/nt32x32.gif" i48="/it.naturtalent.application/icons/nt48x48.gif" i64="/it.naturtalent.application/icons/nt64x64.gif" i128="/it.naturtalent.application/icons/nt128x128.gif"/>
+   <windowImages i16="/it.naturtalent.application/icons/nt16x16.gif" i32="/it.naturtalent.application/icons/nt32x32.gif" i48="/it.naturtalent.application/icons/nt48x48.gif" i64="/it.naturtalent.application/icons/64x64.png" i256="/it.naturtalent.application/icons/nt256x256(32 bit Alpha).png"/>
 
    <splash
       location="it.naturtalent.application" />
@@ -35,6 +35,7 @@
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
