@@ -16,22 +16,20 @@
    <launcherArgs>
       <programArgs>-clearPersistedState
       </programArgs>
-      <vmArgs>-Dds.delayed.keepInstances=true
-      </vmArgs>
       <vmArgsLin>-Djava.library.path=/usr/lib/libreoffice/program
       </vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/it.naturtalent.application/icons/nt16x16.gif" i32="/it.naturtalent.application/icons/nt32x32.gif" i48="/it.naturtalent.application/icons/nt48x48.gif" i64="/it.naturtalent.application/icons/64x64.png" i256="/it.naturtalent.application/icons/nt256x256(32 bit Alpha).png"/>
+   <windowImages i16="/it.naturtalent.application/icons/nt16x16.gif" i32="/it.naturtalent.application/icons/nt32x32.gif" i48="/it.naturtalent.application/icons/nt48x48.gif" i64="/it.naturtalent.application/icons/nt64x64.gif" i128="/it.naturtalent.application/icons/nt128x128.gif" i256="/it.naturtalent.application/icons/nt256x256.gif"/>
 
    <splash
       location="it.naturtalent.application" />
-   <launcher name="NaturTalent">
-      <linux icon="nt48x48.xpm"/>
+   <launcher name="NaturTalent1">
+      <linux icon="/it.naturtalent.produkt/nt256x256.xpm"/>
       <win useIco="true">
-         <ico path="/it.naturtalent.product/nt.ico"/>
+         <ico path="/Tools/it.naturtalent.tools/Naturtalent Lauch Icons/Entwurf/nt.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -105,6 +103,7 @@
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
 
    <preferencesInfo>

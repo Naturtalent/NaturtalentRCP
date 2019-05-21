@@ -73,11 +73,11 @@
 			<repository location="https://archive.eclipse.org/egit/updates-0.8/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="it.naturtalent.feature.archiv.feature.group" version="1.0.0.201905092103"/>
+			<unit id="it.naturtalent.feature.archiv.feature.group" version="0.0.0"/>
 			<repository location="file:/media/dieter/MAXONE/UpdateSites/Archiv/repository/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="it.naturtalent.feature.basis.feature.group" version="1.0.0.201905092047"/>
+			<unit id="it.naturtalent.feature.basis.feature.group" version="0.0.0"/>
 			<repository location="file:/media/dieter/MAXONE/UpdateSites/Basis/repository/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
