@@ -7,7 +7,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho.version>1.3.0</tycho.version>
+		<tycho.version>1.3.0</tycho.version>		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<repo.url>http://download.eclipse.org/releases/2019-03</repo.url>
 		<repo.ecp.url>http://download.eclipse.org/eclipse/updates/4.11</repo.ecp.url>
@@ -78,8 +78,14 @@
        						<os>linux</os>
        						<ws>gtk</ws>
        						<arch>x86</arch>
-      					</environment>
-      					-->
+      					</environment>      					
+      					
+      					<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						-->
       					
 						<environment>
 							<os>linux</os>

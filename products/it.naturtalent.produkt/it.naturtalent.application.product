@@ -26,14 +26,13 @@
 
    <splash
       location="it.naturtalent.application" />
-   <launcher name="NaturTalent1">
+   <launcher name="NaturTalent">
       <linux icon="/it.naturtalent.produkt/nt256x256.xpm"/>
       <win useIco="true">
          <ico path="/Tools/it.naturtalent.tools/Naturtalent Lauch Icons/Entwurf/nt.ico"/>
          <bmp/>
       </win>
    </launcher>
-
 
    <vm>
    </vm>
