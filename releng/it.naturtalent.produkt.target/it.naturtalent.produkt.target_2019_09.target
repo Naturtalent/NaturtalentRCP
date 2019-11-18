@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target includeMode="feature" name="TargetRuntimeDefinition" sequenceNumber="223">
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="http://download.eclipse.org/eclipse/updates/4.13"/>
+			<unit id="org.eclipse.sdk.ide" version="4.13.0.I20190916-1045"/>
+			<unit id="org.eclipse.emf.common.feature.group" version="2.16.0.v20190625-1131"/>
+			<unit id="org.eclipse.emf.common.source.feature.group" version="2.16.0.v20190625-1131"/>
+			<unit id="org.eclipse.emf.ecore.feature.group" version="2.18.0.v20190528-0845"/>
+			<unit id="org.eclipse.emf.ecore.source.feature.group" version="2.18.0.v20190528-0845"/>
+			<unit id="org.eclipse.equinox.core.sdk.feature.group" version="3.19.0.v20190903-0934"/>
+			<unit id="org.eclipse.equinox.sdk.feature.group" version="3.19.0.v20190907-0428"/>
+			<unit id="org.eclipse.rcp.configuration.feature.group" version="1.1.600.v20190916-1045"/>
+			<unit id="org.eclipse.rcp.feature.group" version="4.13.0.v20190916-1045"/>
+			<unit id="org.eclipse.rcp.sdk.id" version="4.13.0.I20190916-1045"/>
+			<unit id="org.eclipse.rcp.source.feature.group" version="4.13.0.v20190916-1045"/>
+			<unit id="org.eclipse.sdk.feature.group" version="4.13.0.v20190916-1323"/>
+		</location>
+	</locations>
+</target>
