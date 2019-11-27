@@ -92,8 +92,8 @@
       <feature id="it.naturtalent.feature.design" installMode="root"/>
       <feature id="it.naturtalent.feature.libreoffice" installMode="root"/>
       <feature id="it.naturtalent.features.office" installMode="root"/>
-      <feature id="it.naturtalent.features.telekom" installMode="root"/>
       <feature id="it.naturtalent.login.feature" installMode="root"/>
+      <feature id="it.naturtalent.features.business" installMode="root"/>
    </features>
 
    <configurations>
