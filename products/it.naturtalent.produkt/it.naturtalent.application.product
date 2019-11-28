@@ -54,11 +54,8 @@
       <feature id="org.eclipse.emf.emfstore.client.ui.feature" installMode="root"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
-      <feature id="org.eclipse.emf.common.ui"/>
       <feature id="org.eclipse.emf.edit"/>
       <feature id="org.eclipse.emf.edit.ui"/>
-      <feature id="org.eclipse.emf.databinding"/>
-      <feature id="org.eclipse.emf.databinding.edit"/>
       <feature id="org.eclipse.emf.ecp.feature"/>
       <feature id="org.eclipse.emf.ecp.view.categorization.feature"/>
       <feature id="org.eclipse.emf.ecp.view.treemasterdetail.feature"/>
@@ -71,15 +68,10 @@
       <feature id="org.eclipse.emf.ecp.viewmodel.feature"/>
       <feature id="org.eclipse.emfforms.core.bazaar.feature"/>
       <feature id="org.eclipse.emfforms.view.annotation.feature"/>
-      <feature id="org.eclipse.emf.emfstore.common.feature" installMode="root"/>
-      <feature id="org.eclipse.emf.emfstore.server.feature" installMode="root"/>
       <feature id="org.eclipse.emf.ecp.emfstore.feature"/>
       <feature id="org.eclipse.ecf.core.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
-      <feature id="org.eclipse.emf.ecore.edit"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
-      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
-      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.nebula.cwt.feature"/>
       <feature id="org.eclipse.nebula.widgets.cdatetime.feature"/>
