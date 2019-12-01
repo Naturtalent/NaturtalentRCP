@@ -32,15 +32,5 @@
 			<repository location="http://download.eclipse.org/ecp/releases/releases_target_123/"/>
 			<unit id="org.eclipse.emf.ecp.sdk.e4.feature.feature.group" version="1.23.0.20191119-1228"/>
 		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="http://download.eclipse.org/nebula/releases/latest"/>
-			<unit id="org.eclipse.nebula.cwt.feature.feature.group" version="1.1.0.201907151344"/>
-			<unit id="org.eclipse.nebula.widgets.cdatetime.feature.feature.group" version="1.4.0.201907151344"/>			
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="http://download.eclipse.org/modeling/emf/cdo/updates/releases"/>
-			<unit id="org.eclipse.net4j.util.feature.group" version="4.7.0.v20180530-0909"/>
-			<unit id="org.eclipse.net4j.util.source.feature.group" version="4.7.0.v20180530-0909"/>
-		</location>
 	</locations>
 </target>
