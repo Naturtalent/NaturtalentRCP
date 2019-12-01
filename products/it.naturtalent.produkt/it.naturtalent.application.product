@@ -76,7 +76,6 @@
       <feature id="org.eclipse.emfforms.core.bazaar.feature"/>
       <feature id="org.eclipse.emfforms.view.annotation.feature"/>
       <feature id="org.eclipse.emf.ecp.emfstore.feature"/>
-      <feature id="org.eclipse.net4j.util" installMode="root"/>
       <feature id="org.eclipse.ecf.core.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
@@ -84,14 +83,22 @@
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.nebula.cwt.feature"/>
       <feature id="org.eclipse.nebula.widgets.cdatetime.feature"/>
+      <feature id="org.eclipse.net4j.util" installMode="root"/>
       <feature id="it.naturtalent.feature.rcp" installMode="root"/>
       <feature id="it.naturtalent.feature.basis"/>
+      <feature id="it.naturtalent.feature.archiv" installMode="root"/>
+      <feature id="it.naturtalent.feature.design" installMode="root"/>
+      <feature id="it.naturtalent.feature.libreoffice" installMode="root"/>
+      <feature id="it.naturtalent.features.office" installMode="root"/>
+      <feature id="it.naturtalent.login.feature" installMode="root"/>
+      <feature id="it.naturtalent.features.business" installMode="root"/>
    </features>
 
    <configurations>
-      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.apache.felix.scr" autoStart="false" startLevel="1" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
