@@ -97,9 +97,6 @@
 			<repository location="http://download.eclipse.org/modeling/emf/cdo/updates/releases"/>
 			<unit id="org.eclipse.net4j.util.feature.group" version="4.7.0.v20180530-0909"/>
 			<unit id="org.eclipse.net4j.util.source.feature.group" version="4.7.0.v20180530-0909"/>
-			<unit id="org.eclipse.net4j.util.doc.feature.group" version="4.2.500.v20180530-1201"/>
-			<unit id="org.eclipse.net4j.util.ui.feature.group" version="4.7.0.v20180530-0909"/>
-			<unit id="org.eclipse.net4j.util.ui.source.feature.group" version="4.7.0.v20180530-0909"/>
 		</location>
 	</locations>
 </target>
