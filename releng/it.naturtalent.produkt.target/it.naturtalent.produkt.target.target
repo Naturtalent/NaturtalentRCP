@@ -37,5 +37,33 @@
 			<unit id="org.eclipse.nebula.cwt.feature.feature.group" version="1.1.0.201907151344"/>
 			<unit id="org.eclipse.nebula.widgets.cdatetime.feature.feature.group" version="1.4.0.201907151344"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/NaturtalentBasis/repository/"/>
+			<unit id="it.naturtalent.feature.basis.feature.group" version="1.0.0.201912012137"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Libreoffice/repository/"/>
+			<unit id="it.naturtalent.feature.libreoffice.feature.group" version="1.0.0.201912012227"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Office/repository/"/>
+			<unit id="it.naturtalent.features.office.feature.group" version="1.0.0.201912012239"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Business/repository/"/>
+			<unit id="it.naturtalent.features.business.feature.group" version="1.0.0.201912012250"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Archiv/repository/"/>
+			<unit id="it.naturtalent.feature.archiv.feature.group" version="1.0.0.201912012257"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Login/repository/"/>
+			<unit id="it.naturtalent.login.feature.feature.group" version="1.0.0.201912012303"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/run/user/1000/gvfs/smb-share:server=fritz-nas,share=fritz.nas/Stickrepos/public/UpdateSites/Design/repository/"/>
+			<unit id="it.naturtalent.feature.design.feature.group" version="1.0.0.201912012326"/>
+		</location>
 	</locations>
 </target>
