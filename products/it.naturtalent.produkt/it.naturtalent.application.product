@@ -92,6 +92,7 @@
       <feature id="it.naturtalent.features.office" installMode="root"/>
       <feature id="it.naturtalent.login.feature" installMode="root"/>
       <feature id="it.naturtalent.features.business" installMode="root"/>
+      <feature id="it.naturtalent.features.team" installMode="root"/>
    </features>
 
    <configurations>
